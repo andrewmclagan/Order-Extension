@@ -1,0 +1,33 @@
+{
+	"name": "jiro/order-extension",
+	"type": "platform-extension",
+	"description": "Jiro Order Extension",
+	"authors": [
+		{
+			"name": "Andrew McLagan",
+			"email": "andrewmclagan@gmail.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://packages.cartalyst.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"cartalyst/composer-installers": "1.2.*",
+		"illuminate/support": "4.2.*",
+		"platform/foundation": "1.0.*",
+
+		"jiro/order": "0.1.*"
+	},
+	"autoload": {
+		"classmap": [],
+		"psr-4": {
+			"Jiro\\Extension\\Order\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
