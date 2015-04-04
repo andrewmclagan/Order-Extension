@@ -20,7 +20,7 @@
 		"illuminate/support": "4.2.*",
 		"platform/foundation": "1.0.*",
 
-		"jiro/order": "0.1.*"
+		"jiro/order": "dev-master"
 	},
 	"autoload": {
 		"classmap": [],
